@@ -1,0 +1,86 @@
+body{
+    background-color: crimson;
+    color:antiquewhite
+}
+header{
+    position:relative;
+    width:100%;
+    padding:20px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    z-index: 100;
+    padding-bottom: 20px;
+}
+
+.bigbox{
+    border:1px solid crimson;
+    width:100%;
+    height:525px;
+    position: relative;
+}
+.box2{
+    border:1px solid crimson;
+    background-color:maroon;
+    width:300px;
+    height:525px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 50px;  
+}
+
+.box1{
+    border:1px solid antiquewhite;
+    background-color: antiquewhite;
+    width:300px;
+    height:390px;
+    border-radius: 10px;
+    position:absolute;
+    text-align:center;
+    padding-top: 50px;
+}
+
+.navbar a{
+    font-size: 20px;
+    color:pink;
+    margin-left: 30px;
+    border: 1px solid pink; 
+    border-radius: 25px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 255, 64);
+    font-weight: bold;
+    color:black;
+}
+
+.navbar a:active{
+    background-color: green;
+    color:white;
+}
+
+.box3{
+    border:1px solid crimson;
+    width:auto;
+    height:525px;
+    position:absolute;
+    text-align:left;
+    margin-left: 25%;
+    margin-top: 50px;  
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.icons{
+    display:flex;
+    justify-content: space-around;
+    height:250px;
+    padding:20px;
+    align-items: center;
+}

@@ -1,0 +1,46 @@
+
+body{
+    background-color: black;
+    color:white;
+    align-items:center;
+}
+
+.header{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px;
+
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    z-index: 100;
+    padding-bottom: 200px;
+}
+
+.navbar a{
+     font-size: 20px;
+     color: white;
+     margin-left: 30px;   
+}
+
+.box{
+    border:1px solid antiquewhite;
+    width:500px;
+    height:150px;
+    border-radius: 10px;
+    padding: 20px;
+    margin:auto;
+}
+
+.box:hover{
+    color:pink;
+}
+
+.icons{
+    display:flex;
+    justify-content: space-around;
+    height:250px;
+    padding:20px;
+}
